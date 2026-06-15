@@ -1,0 +1,43 @@
+{
+  "name": "@p2p-share/client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "cd ../shared && npm run build",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@p2p-share/shared": "^1.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "qrcode": "^1.5.4",
+    "react-router-dom": "^7.17.0",
+    "socket.io-client": "^4.7.5",
+    "three": "^0.140.2",
+    "threejs-toys": "^0.0.8",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^25.9.3",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "fake-indexeddb": "^6.2.5",
+    "jsdom": "^28.1.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vite": "^7.1.0",
+    "vitest": "^4.1.8"
+  }
+}

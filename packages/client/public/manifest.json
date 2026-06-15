@@ -1,0 +1,20 @@
+{
+  "name": "P2P Web Share",
+  "short_name": "P2P Share",
+  "description": "Direct browser-to-browser file transfer. No uploads. No servers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity"],
+  "lang": "en"
+}
