@@ -13,9 +13,10 @@
   },
   "dependencies": {
     "@p2p-share/shared": "^1.0.0",
+    "ogl": "^1.0.11",
+    "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "qrcode": "^1.5.4",
     "react-router-dom": "^7.17.0",
     "socket.io-client": "^4.7.5",
     "three": "^0.140.2",
